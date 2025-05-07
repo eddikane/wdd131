@@ -4,25 +4,24 @@
 
 :root {
  
-  --primary-color: #343330   ;
-  --secondary-color: #ffffff ;
-  --accent1-color: #fa7821c1;
-  --accent2-color: #154797;
-
+  --primary-color: #3E4234  ;
+  --secondary-color: #FDFCF9;
+  --accent1-color: #2F2F2F;
+  --accent2-color: #6B705C;
   
   --heading-font: "Permanent Marker";
   --paragraph-font: Lexend, Helvetica, sans-serif;
 
  
-  --headline-color-on-white: #fa7821c1;  /* headlines on a white background */ 
-  --headline-color-on-color: #fa7821c1; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #343330; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #343330 ;
-  --nav-link-color: #ffffff;
-  --nav-background-color: #343330;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #fa7821c1;
+  --headline-color-on-white: #3e4234;        /* Dark green-brown on white */
+  --headline-color-on-color: #fdfcf9;        /* Light cream on dark background */
+  --paragraph-color-on-white: #2f2f2f;       /* Deep gray for readability */
+  --paragraph-color-on-color: #fdfcf9;       /* Light text on dark background */
+  --paragraph-background-color: #4e5b47;     /* Muted green-gray background */
+  --nav-link-color: #fdfcf9;                 /* Light links on dark nav */
+  --nav-background-color: #3e4234;           /* Rich green-brown nav background */
+  --nav-hover-link-color: #ffffff;           /* Pure white on hover for clarity */
+  --nav-hover-background-color: #6b705c;
 }
 
 
