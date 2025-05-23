@@ -16,14 +16,17 @@
     height: 725px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly; /* or space-around, space-between, etc. */
+    align-items: center;
+}
+
 nav a {
     text-align: center;
-    color: #2f2f2f; /* rich charcoal */
+    color: white;
     text-decoration: none;
-    padding: 35px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 15px 25px;
 }
 
 nav a:hover {
