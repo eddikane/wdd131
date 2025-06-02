@@ -258,6 +258,42 @@ footer {
   align-items: center;
 }
 
+/* FAQ Page Styles */
+.faq {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.question {
+  margin-bottom: 1rem;
+}
+
+.question p:first-child {
+  font-weight: bold;
+}
+
+.top-image,
+.bottom-image {
+  width: 100vw;        /* Use full viewport width */
+  max-width: 100%;     /* Prevent overflow */
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.top-image,
+.bottom-image {
+  height: 500px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
