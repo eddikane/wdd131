@@ -1,0 +1,193 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Layout Containers */
+header, footer {
+  background-color: #002f6c; /* Dark blue primary */
+  color: white;
+  padding: 1em 2em;
+}
+
+main {
+  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav a {
+  color: white;
+  margin-right: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #002f6c;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 1.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  font-size: 2rem;
+}
+
+/* Image Sections */
+.highlight-image img,
+.images img,
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffcc00; /* Accent color */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Navigation Bar Styles */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #002f6c;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+
+
+/* Footer Styles */
+.footer-container.aligned {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+  padding: 1.5rem;
+  background-color: #002f6c;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.footer-container.aligned p,
+.footer-container.aligned .social {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.footer-container.aligned a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.footer-container.aligned a:hover {
+  text-decoration: underline;
+}
+
+.footer-container.aligned .social a {
+  margin-left: 0.5rem;
+}
+
+.footer-container.aligned .social img {
+  width: 4px;
+  height: 4px;
+}
