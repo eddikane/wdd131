@@ -20,9 +20,13 @@ header, footer {
 }
 
 main {
-  padding: 2em;
+  padding: 3em 2em; /* More vertical breathing room */
   max-width: 1200px;
   margin: auto;
+}
+
+p {
+  margin-bottom: 1.5em; /* More space between paragraphs */
 }
 
 nav a {
@@ -159,7 +163,10 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: auto;
+   margin: 2em auto 0 auto; /* Added top margin for separation */
+  padding-top: 1em;
+  padding-bottom: 1em;
+  gap: 1em; /* Slight spacing between flex items */
 }
 
 .footer-title {
@@ -167,6 +174,7 @@ footer {
   font-weight: 600;
   font-family: 'Oswald', sans-serif;
   color: white;
+  margin: 0;
 }
 
 .footer-links {
