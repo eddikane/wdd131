@@ -34,10 +34,15 @@ nav a {
   margin-right: 1.5em;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #ffcc00; /* Accent gold */
+  background-color: rgba(255, 255, 255, 0.1); /* subtle hover background */
+  text-decoration: none; /* No underline */
 }
 
 /* Typography */
