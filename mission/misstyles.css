@@ -10,7 +10,8 @@ body {
 
 .content {
   max-width: 1050px;               
-  margin: 30px auto;              
+  margin: 30px auto;  
+  padding: 60px 32px;            
   border: 3px solid #e0e0e0;      
   text-align: center;
 }
