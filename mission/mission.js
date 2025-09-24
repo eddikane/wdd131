@@ -6,7 +6,6 @@ const logo = document.getElementById("logo");
 // Function to change theme
 function changeTheme() {
   const selected = themeSelect.value;
-}
 
   if (selected === "dark") {
     body.classList.add("dark");
@@ -14,6 +13,7 @@ function changeTheme() {
   } else {
     body.classList.remove("dark");
     logo.src = "byui-logo.webp";        
+  }
 }
 
 // Event listener

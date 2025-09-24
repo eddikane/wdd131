@@ -86,6 +86,7 @@ body.dark .content {
 
 body.dark header h2 {
   color: #4da6ff;  
+  border-bottom: 1px solid #555;
 }
 
 
