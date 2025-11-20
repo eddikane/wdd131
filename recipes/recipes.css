@@ -1,12 +1,12 @@
-
 :root {
   --primary-color: #2b7cc1;
   --text-color: #222;
   --background: #fff;
   --border-color: #ddd;
-  --font-heading: 'Bree Serif', serif;
-  --font-body: 'Open Sans', sans-serif;
+  --font-heading: "Bree Serif", serif;
+  --font-body: "Open Sans", sans-serif;
 }
+
 
 body {
   font-family: var(--font-body);
@@ -28,8 +28,8 @@ img {
 
 header {
   text-align: center;
-  border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .logo {
@@ -78,7 +78,7 @@ header {
   margin-bottom: 1.5rem;
   background-color: white;
   gap: 1rem;
-  min-height: 420px; 
+  min-height: 420px;
 }
 
 .recipe img {
@@ -87,7 +87,8 @@ header {
   object-fit: cover;
 }
 
-.recipe-content {
+
+.recipe figcaption {
   flex: 1;
 }
 
@@ -96,16 +97,25 @@ header {
   color: var(--primary-color);
 }
 
-.recipe .tags {
+.recipe__tags {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   margin-bottom: 0.5rem;
 }
 
-.recipe .tags span {
+.recipe__tags li {
+  display: inline-block;
   border: 1px solid var(--border-color);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   font-size: 0.85rem;
   margin-right: 0.3rem;
+}
+
+.recipe__description {
+  margin-top: 0.5rem;
+  line-height: 1.4;
 }
 
 
@@ -124,11 +134,10 @@ footer p {
 
 footer .social {
   display: flex;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
-
-.sr-only {
+-only {
   position: absolute;
   width: 1px;
   height: 1px;
