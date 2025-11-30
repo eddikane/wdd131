@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<title>Site Plan</title>
+		<link type="text/css" rel="stylesheet" href="styles/site-plan.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Calorie Tracker – Site Plan</h1>
+			<h2>Edward Kane</h2>
+			<h2>WDD 131-A1</h2>
+		</header>
+
+		<main>
+			<hr />
+			<h2>Overview</h2>
+
+			<h3>Purpose</h3>
+			<p>
+				The purpose of the Calorie Tracker App is to help users track
+				their daily meals, estimate calorie intake, and receive simple nutrition
+				guidance. This app keeps healthy eating easy, fast, and consistent
+				without needing a full nutrition tracking app. It supports users in
+				making better meal decisions that match their fitness and lifestyle goals.
+			</p>
+
+			<h3>Audience</h3>
+			<p>
+				This site is designed for individuals who want to improve their eating
+				habits, track calories, and maintain healthier routines. The audience
+				includes busy students, athletes, working adults, and basically anyone who wants a
+				simple and clean tool to monitor their meals without complicated features.
+			</p>
+
+			<h3>Dynamic elements</h3>
+			<p>
+				The site will use Javascript to provide several dynamic features. Users
+				will add meals through a form, creating meal objects stored in an array
+				and saved to localStorage. Javascript will render added meals dynamically
+				to the Meals page and calculate daily calorie totals. Meal filtering (breakfast, lunch, dinner, snacks,
+				calorie ranges) will update the display instantly. A
+				random nutrition tip generator will pull from a list of preset tips using
+				Math.random(). ES modules will be used to organize code across multiple
+				files, and event listeners will handle form submissions, button clicks,
+				and DOM updates.
+			</p>
+
+			<hr />
+			<h2>Branding</h2>
+			<h3>Website Logo</h3>
+			<img src="images/logo.png" alt="Calorie Tracker logo" />
+
+			<hr />
+			<h2>Style Guide</h2>
+
+			<h3>Color Palette</h3>
+			Palette URL:
+			<a
+				href="https://coolors.co/4caf50-ffc107-ff5722-fafafa-212121"
+				target="_blank"
+				>https://coolors.co/4caf50-ffc107-ff5722-fafafa-212121</a
+			>
+
+			<table class="colors">
+				<tbody>
+					<tr>
+						<th>Primary</th>
+						<th>Secondary</th>
+						<th>Accent 1</th>
+						<th>Accent 2</th>
+					</tr>
+					<tr>
+						<td class="primary">#4CAF50</td>
+						<td class="secondary">#FFC107</td>
+						<td class="accent1">#FF5722</td>
+						<td class="accent2">#FAFAFA</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h3>Typography</h3>
+			<h4>Heading Font: Poppins, sans-serif</h4>
+			<h4>Paragraph Font: Inter, sans-serif</h4>
+
+			<h3>Normal paragraph example</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat.
+			</p>
+
+			<h3>Colored paragraph example</h3>
+			<p class="colored">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				veniam.
+			</p>
+
+			<h3>Navigation</h3>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">Meals</a>
+				<a href="#">Add Meal</a>
+			</nav>
+			<hr />
+
+			<h2>Content</h2>
+			<h3>Home page</h3>
+			<p>
+				The home page will introduce the Simple Meal & Calorie Coach App and
+				explain how users can track their meals. It will display today's calorie
+				total, two navigation buttons (Add Meal and View Meals), and a box that
+				shows a random nutrition tip. 
+			</p>
+
+			<h3>Meals Page</h3>
+			<p>
+				The Meals page will show all meals the user has entered. Each meal will
+				appear as a styled card with the meal name, category, and calorie amount.
+				Users will be able to filter meals by category or calorie range using
+				dynamic buttons. A summary section will show daily calorie totals and
+				meal statistics. 
+			</p>
+
+			<h2>Wireframes</h2>
+			<p>Wireframes for the home page and meals page are listed below.</p>
+
+			<h3>Home</h3>
+			<p>The home page includes the logo, quick calorie summary, buttons, and a tip generator.</p>
+			<img src="images/homepage-wireframe.png" alt="home page wireframe" />
+
+			<h3>Meals Page</h3>
+			<p>The meals page includes entry cards, filters, and a summary section.</p>
+			<img src="images/mealpage-wireframe.png" alt="meals page wireframe" />
+		</main>
+	</body>
+</html>
