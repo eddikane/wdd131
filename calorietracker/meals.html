@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Log meals, filter entries, and track daily calorie totals in a simple meal tracker.">
+  <title>Meals | Calorie Tracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Meal Coach Logo" class="logo" />
+    <h1>Your Meals</h1>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="meals.html" aria-current="page">Meals</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Add Meal</h2>
+
+      <form id="mealForm">
+        <label class="sr-only" for="mealName">Meal name</label>
+        <input type="text" id="mealName" placeholder="Meal name" required />
+
+        <label class="sr-only" for="mealCategory">Category</label>
+        <select id="mealCategory">
+          <option value="Breakfast">Breakfast</option>
+          <option value="Lunch">Lunch</option>
+          <option value="Dinner">Dinner</option>
+          <option value="Snack">Snack</option>
+        </select>
+
+        <label class="sr-only" for="mealCalories">Calories</label>
+        <input type="number" id="mealCalories" placeholder="Calories" required min="0" />
+
+        <button type="submit">Add Meal</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Meal Log</h2>
+      <div id="mealList"></div>
+    </section>
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
+

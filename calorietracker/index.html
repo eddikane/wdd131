@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple meal and calorie tracker with daily totals, filters, and quick nutrition tips.">
+  <title>Calorie Tracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Meal Coach Logo" class="logo" />
+    <h1>Calorie Tracker</h1>
+    <nav aria-label="Primary navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="meals.html">Meals</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Today's Calories</h2>
+      <p id="totalCalories">0</p>
+    </section>
+
+    <section class="card">
+      <h2>Nutrition Tip</h2>
+      <p id="tipText">Click below to get a tip</p>
+      <button id="tipBtn" type="button">Get Tip</button>
+    </section>
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
